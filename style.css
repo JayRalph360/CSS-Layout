@@ -1,0 +1,119 @@
+/* Import the google web fonts you want to use */
+
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One');
+
+/* Card Based Layout - Base styles */
+
+body {
+	background: hsl(0, 0%, 90%);
+}
+
+main {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+	justify-content: center;
+    height: 50%;
+    margin-top: 10%;
+	
+}
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: 'Comfortaa', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+  font-family: 'Patua One', serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #007489;
+}
+
+p {
+	margin-bottom: 1.5em;
+	margin-top: 50%;
+	color: #898989;
+}
+
+
+.button {
+	background-color: white;
+	border: none;
+	color: rgb(137, 155, 39);
+	padding: 10%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px;
+	margin-top: 50%;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button1 {border-radius: 30px;}
+
+.card {
+	background: white;
+	margin-bottom: 1em;	
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
+}
+
+.card-content {
+	padding: 2em;
+}
+
+.card-content h2 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-weight: bold;
+	font-size: 100%;
+	color: white;
+}
+
+.card-content p {
+	font-size: 70%;
+	color: white;
+}
+
+
+/* Flexbox stuff */
+
+.cards {
+   display: flex;
+   justify-content: center;
+}
+
+.card {
+	flex: 100%;
+}
+

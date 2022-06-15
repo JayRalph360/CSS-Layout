@@ -1,0 +1,43 @@
+.container {
+    height: 90vh;
+    width: 50vw;
+    margin: 2rem auto;
+    display: grid;
+    background-color: black;
+    grid-template-areas: "header header right"
+                         "header header right"
+                         "left main main"
+                         "left footer footer";
+    padding: 5em;
+}
+ .cell-1 {
+    background: deepskyblue;
+    grid-area: header;
+    margin: 0.1em;
+}
+ .cell-2 {
+    background: orangered;
+    grid-area: left;
+    margin: 0.1em;
+}
+ .cell-3 {
+    background: limegreen;
+    grid-area: main;
+    margin: 0.1em;
+}
+ .cell-4 {
+    background: gold;
+    grid-area: right;
+    margin: 0.1em;
+}
+ .cell-5 {
+    background: blueviolet;
+    grid-area: footer;
+    margin: 0.1em;
+}
+ .cell {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 4rem;
+}
